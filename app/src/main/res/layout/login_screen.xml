@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    >
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/stethoscope"
+        android:padding="10dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="username"
+
+            android:background="@drawable/rounded_text_view"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/rounded_text_view"
+            android:password="true"
+            android:hint="password"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint" />
+
+        <Button
+
+            android:textSize="20sp"
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/round_corner"
+            android:text="Login"
+            android:bottomRightRadius="20dp"
+            android:bottomLeftRadius="20dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="20dp"
+
+
+            android:textColor="@color/white"
+
+
+            />
+
+        <!-- Login Button -->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

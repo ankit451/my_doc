@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.pokedr.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_history"
+        android:title="Medical History" />
+
+    <item android:id="@+id/profile"
+        android:title="Details" />
+
+    <item android:id="@+id/sos"
+        android:title="SOS" />
+
+    <item android:id="@+id/logout"
+        android:title="Log Out" />
+</menu>
